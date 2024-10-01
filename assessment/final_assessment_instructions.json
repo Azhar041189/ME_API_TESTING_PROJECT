@@ -3,7 +3,7 @@
         {
             "assesmentDescription":"Verify that all 4 test cases have passed",
             "find":".//test-method[@status='PASS']",
-            "expectedCount":4,
+            "expectedCount":8,
             "errorMessage":"All 4 API test cases havent passed"
         },
         {
@@ -15,25 +15,25 @@
         {
             "assesmentDescription":"Verify testCase 1 ",
             "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_01')]/test-method[@status='PASS']",
-            "expectedCount":1,
+            "expectedCount":2,
             "errorMessage":"testCase01 Failed"
         },
         {
             "assesmentDescription":"Verify testCase 2 ",
             "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_02')]/test-method[@status='PASS']",
-            "expectedCount":1,
+            "expectedCount":2,
             "errorMessage":"testCase02 Failed"
         },
         {
             "assesmentDescription":"Verify testCase 3 ",
             "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_03')]/test-method[@status='PASS']",
-            "expectedCount":1,
+            "expectedCount":2,
             "errorMessage":"testCase03 Failed"
         },
         {
             "assesmentDescription":"Verify testCase 4 ",
             "find":".//class[contains(@name,'qtriptest.APITests.testCase_API_04')]/test-method[@status='PASS']",
-            "expectedCount":1,
+            "expectedCount":2,
             "errorMessage":"testCase04 Failed"
         }
     ]

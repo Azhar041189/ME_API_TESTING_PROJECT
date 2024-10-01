@@ -1,0 +1,19 @@
+<suite name="API Test Suite" verbose="1">
+    <test name="API Tests">
+        <groups>
+            <run>
+                <include name="apiTests" />
+            </run>
+        </groups>
+        <packages>
+            <package name="qtriptest.APITests"/>
+        </packages>
+        <classes>
+            <!-- include all test classes with API tests -->
+            <class name="testCase_API_01" />
+            <class name="testCase_API_02" />
+            <class name="testCase_API_03" />
+            <class name="testCase_API_04" />
+        </classes>
+    </test>
+</suite>

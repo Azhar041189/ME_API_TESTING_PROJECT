@@ -20,8 +20,11 @@ repositories {
 
 dependencies {
     // Use TestNG framework, also requires calling test.useTestNG() below
-        implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0'
     testImplementation group: 'org.testng', name: 'testng', version: '7.6.0'
+    testImplementation 'io.rest-assured:rest-assured:5.5.0'
+    testImplementation 'io.rest-assured:json-schema-validator:5.5.0'
+    implementation 'org.json:json:20171018'
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
     // NOTE: Added to remove the "ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console..." error shown
@@ -33,10 +36,11 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.2'
-    testImplementation 'io.rest-assured:rest-assured:5.2.0'
-    testImplementation 'io.rest-assured:json-schema-validator:4.3.3'
-    implementation 'org.json:json:20171018'
+    //testImplementation 'io.rest-assured:rest-assured:5.2.0'
+    //testImplementation 'io.rest-assured:json-schema-validator:4.3.3'
+    //implementation 'org.json:json:20171018'
 
+    
 
 
     
